@@ -12,6 +12,6 @@ Software Engineering Student @ UNASAT | Java & SQL Enthusiast | Building cool pr
 
 ### 📊 GitHub Stats
 
-![Nikhiel's GitHub stats](https://github-readme-stats.vercel.app/api?username=Nikh_Codes&show_icons=true&theme=dark)
+![Nikhiel's GitHub stats](https://github-readme-stats.vercel.app/api?username=NikhCodes&show_icons=true&theme=dark)
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Nikh_Codes&layout=compact&theme=dark)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=NikhCodes&layout=compact&theme=dark)
