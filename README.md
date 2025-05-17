@@ -56,7 +56,7 @@
 ## 🤝 Connect With Me
 
 [![Instagram](https://img.shields.io/badge/@Nikh_Codes-Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/Nikh_Codes)
-[![LinkedIn](https://img.shields.io/badge/Nikhiel_Lingard-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/nikhiel-lingard)
+[![LinkedIn](https://img.shields.io/badge/Nikhiel_Lingard-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/nikhiel-lingard-88b3a4311)
 
 ---
 
