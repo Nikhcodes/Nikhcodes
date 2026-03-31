@@ -32,16 +32,17 @@
 
 ---
 
-## 🏆 `> achievements.unlocked`
+## 🏅 `> achievements.unlocked`
 
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=NikhCodes&theme=tokyonight&no-frame=true&row=1&margin-w=12" />
+<img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=NikhCodes&layout=donut&theme=tokyonight&border_radius=10&bg_color=0D1117&hide_border=true&langs_count=6" />
 
 <br/>
 
-![Followers](https://img.shields.io/github/followers/NikhCodes?style=for-the-badge&color=A78BFA&labelColor=0D1117&logo=github)
-![Stars](https://img.shields.io/github/stars/NikhCodes?style=for-the-badge&color=A78BFA&labelColor=0D1117&logo=github)
+![Followers](https://img.shields.io/github/followers/NikhCodes?style=for-the-badge&color=A78BFA&labelColor=0D1117&logo=github&label=Followers)
+![Stars](https://img.shields.io/github/stars/NikhCodes?style=for-the-badge&color=A78BFA&labelColor=0D1117&logo=github&label=Total%20Stars)
+![Repos](https://img.shields.io/badge/dynamic/json?url=https://api.github.com/users/NikhCodes&query=$.public_repos&style=for-the-badge&color=A78BFA&labelColor=0D1117&logo=github&label=Public%20Repos)
 
 </div>
 
