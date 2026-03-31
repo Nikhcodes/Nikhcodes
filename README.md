@@ -146,11 +146,10 @@ Linux · Docker · Git · Vercel · Postman · VS Code · IntelliJ
 
 ## 🐍 `> contribution_snake`
 
-<div align="center">
-
-![snake gif](https://github.com/NikhCodes/NikhCodes/blob/output/github-contribution-grid-snake.svg)
-
-</div>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/NikhCodes/NikhCodes/blob/output/github-contribution-grid-snake-dark.svg">
+  <img alt="github contribution snake" src="https://github.com/NikhCodes/NikhCodes/blob/output/github-contribution-grid-snake.svg">
+</picture>
 
 ---
 
