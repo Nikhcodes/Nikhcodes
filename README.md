@@ -220,6 +220,11 @@ nikhiel@dev:~$ █
 ## ⏱️ `> coding_activity.live`
 
 <!--START_SECTION:waka-->
+
+```txt
+No activity tracked
+```
+
 <!--END_SECTION:waka-->
 
 ---
