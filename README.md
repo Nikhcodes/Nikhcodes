@@ -35,7 +35,14 @@
 ## 🏆 `> achievements.unlocked`
 
 <div align="center">
-<img src="https://github-profile-trophy.vercel.app/?username=NikhCodes&theme=tokyonight&no-frame=true&row=1&column=7&margin-w=12" />
+
+<img src="https://github-profile-trophy.vercel.app/?username=NikhCodes&theme=tokyonight&no-frame=true&row=1&margin-w=12" />
+
+<br/>
+
+![Followers](https://img.shields.io/github/followers/NikhCodes?style=for-the-badge&color=A78BFA&labelColor=0D1117&logo=github)
+![Stars](https://img.shields.io/github/stars/NikhCodes?style=for-the-badge&color=A78BFA&labelColor=0D1117&logo=github)
+
 </div>
 
 ---
@@ -66,7 +73,7 @@ const nikhiel: Developer = {
     "Backend architecture patterns",
   ],
 
-  funFact: "I understand systems both to build them — and to break them 😈",
+  funFact: "I understand systems both to build them — and to break them ",
 };
 ```
 
@@ -191,8 +198,8 @@ nikhiel@dev:~$ █
 
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=NikhCodes&show_icons=true&theme=tokyonight&border_radius=10&bg_color=0D1117&hide_border=true&include_all_commits=true&count_private=true"/>
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=NikhCodes&layout=compact&theme=tokyonight&border_radius=10&bg_color=0D1117&hide_border=true"/>
+<img height="180em" src="https://github-readme-stats-sigma-five.vercel.app/api?username=NikhCodes&show_icons=true&theme=tokyonight&border_radius=10&bg_color=0D1117&hide_border=true&include_all_commits=true&count_private=true"/>
+<img height="180em" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=NikhCodes&layout=compact&theme=tokyonight&border_radius=10&bg_color=0D1117&hide_border=true"/>
 
 <br/>
 
@@ -233,11 +240,9 @@ No activity tracked
 
 > 🧠 **Did you know?** The average developer spends 35% of their time debugging — I spend mine trying to write code that doesn't need it. (I still debug. A lot.)
 
-<!-- You can update this with fun facts about yourself, rotating quotes, etc. -->
-
 ---
 
-## 💻 `> boot nikhielOS`
+## 💻 `> boot nikhOS`
 
 ```bash
 nikhiel@universe:~$ sudo ./boot_system.sh
