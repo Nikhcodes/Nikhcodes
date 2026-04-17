@@ -196,7 +196,7 @@ I documented every issue I hit along the way: schema permissions, Hibernate DDL 
 | | |
 |--|--|
 | 📧 Email | [nikhiel.lingard.dev@gmail.com](mailto:nikhiel.lingard.dev@gmail.com) |
-| 💼 LinkedIn | [linkedin.com](https://linkedin.com/) |
+| 💼 LinkedIn | [linkedin.com](https://www.linkedin.com/in/nikhiel-lingard/) |
 | 🐙 GitHub | [@NikhCodes](https://github.com/NikhCodes) |
 
 ---
