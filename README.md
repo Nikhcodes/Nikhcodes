@@ -107,6 +107,26 @@ Things I actually built. Some are polished, some are learning exercises — but 
 
 ---
 
+### 🛢️ RigSight — Backend Monitoring System
+> Simulated oil & gas monitoring platform with real-time telemetry, alerting, and system state management
+
+Built to model how backend systems behave under continuous data flow — not just CRUD, but state, thresholds, and automated decision-making.
+
+- Simulated sensor pipeline generating readings on a schedule (Spring scheduler)
+- Real-time evaluation engine with configurable thresholds per equipment type
+- Alert system with deduplication (prevents flooding under sustained breaches)
+- Equipment state transitions (ACTIVE → WARNING → CRITICAL → recovery)
+- JWT-secured REST API with role-based access control (ADMIN / OPERATOR / ENGINEER)
+- Flyway migrations + Dockerized PostgreSQL
+
+What matters here isn’t just features — it’s consistency under pressure: repeated violations, continuous data, and keeping system state correct.
+
+**[repo ↗](https://github.com/Nikhcodes/rigsight)**
+
+`Java 21` `Spring Boot` `Spring Security` `JWT` `JPA / Hibernate` `PostgreSQL` `Flyway` `Docker`
+
+---
+
 ### 🏗️ AGAS — Academic Group Accountability System
 > Role-based web app for managing academic group work, with a full audit trail
 
@@ -115,10 +135,10 @@ Built with a team as part of my software engineering programme. I handled backen
 - Module-based Node.js + Express API with PostgreSQL
 - JWT auth, bcrypt (12 rounds), role-based access control across three roles
 - Append-only audit log with JSONB metadata — every action is traceable and survives entity deletion
-- OWASP principles applied throughout: rate limiting, Helmet.js, Joi validation, enumeration-safe error messages
-- UUID primary keys, soft deletes, database-level triggers enforcing group membership and assignment integrity
+- OWASP principles applied: rate limiting, Helmet.js, Joi validation, enumeration-safe errors
+- UUID primary keys, soft deletes, database-level integrity enforcement
 
-The security wasn't an afterthought — it was designed in from the schema up.
+Security wasn’t added later — it was designed from the schema up.
 
 `Node.js` `Express` `PostgreSQL` `JWT` `bcrypt` `Joi` `Helmet`
 
@@ -127,11 +147,11 @@ The security wasn't an afterthought — it was designed in from the schema up.
 ### ✦ NikhOS — Student Dashboard
 > A minimal student workspace that behaves like a native app
 
-Personal project. Wanted something that loads fast and stays out of the way — not another cluttered productivity tool.
+Personal project. Built for speed and simplicity — not another bloated productivity tool.
 
-- Grades, assignments, calendar, focus mode — all local, no accounts, no sync
-- Installable as a PWA, works offline
-- Framer Motion for interaction feel
+- Grades, assignments, calendar, focus mode — all local (no accounts, no sync)
+- Installable PWA with offline support
+- Smooth UI interactions with Framer Motion
 
 **[live demo ↗](https://nikh-os-red.vercel.app)** · **[repo ↗](https://github.com/Nikhcodes/NikhOS)**
 
@@ -139,31 +159,18 @@ Personal project. Wanted something that loads fast and stays out of the way — 
 
 ---
 
-### 🖐️ pose cam — Real-Time Hand Gesture Detector
-> Python tool that reads hand poses via webcam and overlays images in real time
+### 🖐️ Pose Cam — Real-Time Hand Gesture Detector
+> Python tool that detects hand poses via webcam and overlays visuals in real time
 
-Built because I was curious about computer vision and wanted to actually use MediaPipe properly — not just run the example.
+Built to explore computer vision beyond tutorials — using geometry instead of trained models.
 
-- 9 classified poses using finger landmark geometry — no ML training, just geometry
-- Auto brightness/contrast, warmth tone, vignette — built to look good for photos not just demos
-- Runs entirely local, no servers, no accounts
+- 9 gesture classifications using finger landmark geometry (no ML training)
+- Real-time image processing with brightness/contrast tuning and visual effects
+- Fully local execution — no servers, no accounts
 
 **[repo ↗](https://github.com/Nikhcodes/face-tracker)**
 
 `Python 3.12` `MediaPipe Tasks API` `OpenCV` `NumPy`
-
----
-
-### ☕ Task API — Spring Boot REST Service
-> Minimal CRUD API for task management using Spring Boot and PostgreSQL
-
-First real Java/Spring Boot project. Built to learn the stack properly — layered architecture, JPA/Hibernate, PostgreSQL integration. Small scope intentionally.
-
-I documented every issue I hit along the way: schema permissions, Hibernate DDL config, endpoint mapping errors. Understanding what breaks and why matters more to me than having it work first try.
-
-`Java` `Spring Boot` `Spring Data JPA` `Hibernate` `PostgreSQL` `Maven`
-
----
 
 ## github stats
 
