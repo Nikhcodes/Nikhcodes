@@ -1,217 +1,138 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,24&height=180&section=header&text=Nikhiel%20Lingard&fontSize=55&fontColor=ffffff&animation=twinkling&fontAlignY=35&desc=Backend%20Engineer%20in%20Progress%20%7C%20Paramaribo%2C%20Suriname%20%F0%9F%87%B8%F0%9F%87%B7&descAlignY=60&descColor=A78BFA" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=190&color=0:0D0D0D,50:991B1B,100:DC2626&text=Nikhiel%20Lingard&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Backend%20Engineering%20%E2%80%A2%20Fintech%20Operations%20%E2%80%A2%20Suriname&descAlignY=60"/>
 
-<br/>
+<br>
 
-<a href="mailto:nikhiel.lingard.dev@gmail.com">
-  <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
-</a>
-<a href="https://www.linkedin.com/in/nikhiel-lingard/">
-  <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
-</a>
-<a href="https://github.com/NikhCodes">
-  <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"/>
-</a>
-<img src="https://komarev.com/ghpvc/?username=NikhCodes&color=blueviolet&style=for-the-badge&label=PROFILE+VIEWS" />
+<a href="https://nikhcodes.github.io"><img src="https://img.shields.io/badge/portfolio-991B1B?style=for-the-badge&logo=firefox-browser&logoColor=white"/></a>
+<a href="mailto:nikhiel.lingard.dev@gmail.com"><img src="https://img.shields.io/badge/email-B91C1C?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+<a href="https://www.linkedin.com/in/nikhiel-lingard/"><img src="https://img.shields.io/badge/linkedin-1A1A1A?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+<a href="https://github.com/NikhCodes"><img src="https://img.shields.io/badge/github-1A1A1A?style=for-the-badge&logo=github&logoColor=white"/></a>
 
-<br/><br/>
+<br><br>
 
-![Status](https://img.shields.io/badge/Status-Building%20Toward%20Hireable-brightgreen?style=flat-square)
-![Location](https://img.shields.io/badge/📍-Paramaribo%2C%20Suriname-A78BFA?style=flat-square)
-![Open To](https://img.shields.io/badge/Open%20To-Internships%20%26%20Collabs-blue?style=flat-square)
-![Studying](https://img.shields.io/badge/BSc%20IT-Software%20Engineering%20@%20UNASAT-A78BFA?style=flat-square)
+<img src="https://komarev.com/ghpvc/?username=NikhCodes&style=for-the-badge&color=991B1B&label=profile+views"/>
 
 </div>
 
----
+<br>
 
-## who i am
+## about
 
-Software engineering student from Suriname, working toward a BSc in IT at UNASAT.
+I run IT operations at a fintech bank in Suriname by day, and study software engineering at UNASAT the rest of the time. The two feed each other more than I expected — watching how a production banking environment actually breaks, gets monitored, and gets patched has shaped what I want to build more than any course has.
 
-I started with fullstack — built things in React, learned how it all connects. But the more I built, the more I cared about what's underneath: how systems are structured, why certain decisions break things later, how security fits in from the start and not as an afterthought.
+I started in full-stack because it let me ship things fast. I'm moving toward backend — Java, Spring Boot, PostgreSQL — because I got more interested in what happens when the request lands than in what the button looks like. Authentication flows, state machines, failure modes, the boring infrastructure between an app and the outside world: that's the part I keep coming back to.
 
-So I shifted focus. Backend is where I'm going — specifically Java and Spring Boot. That's what I'm building toward being hireable in. I want to understand it properly, not just get it working.
+I don't collect frameworks. I'd rather spend three months actually understanding Spring Security's filter chain than skim ten tutorials on ten different stacks.
 
-I grew up mostly figuring things out on my own, and that's still how I learn. I don't rush to the next tool. I'd rather understand one thing well.
+<br>
 
----
+## currently
 
-## what i'm actually working on right now
-
-```ts
-const nikhiel = {
-  degree:    "BSc IT — Software Engineering @ UNASAT",
-  direction: "Backend engineering (Java / Spring Boot)",
-
-  currentlyStudying: [
-    "Java + Spring Boot — main focus, building toward hireable",
-    "OWASP Top 10 — understanding it to apply it, not just cite it",
-    "TDD — reading Kent Beck, trying to actually write tests first",
-    "24 Deadly Sins of Software Security — software security fundamentals",
-  ],
-
-  wantToLearnNext: [
-    "Nginx — reverse proxy, load balancing, the infrastructure layer",
-    "Caching strategies",
-    "More of what sits between the app and the world",
-  ],
-
-  honest: "I'm early. I understand more than I've shipped — and I'm fixing that.",
-};
+```yaml
+role:      IT Operator, fintech banking — production systems, incident response
+studying:  BSc IT / Software Engineering, UNASAT
+building:  Java, Spring Boot, PostgreSQL, Spring Security
+reading:   OWASP Top 10, authentication design, caching strategies
+next up:   Docker, Nginx, deployment infra
 ```
 
----
+<br>
 
-## tech i actually use
+## stack
 
 <div align="center">
 
-**backend — what i build with**
-
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white)
-
-**frontend — comfortable, not my focus**
-
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS_v4-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![Framer Motion](https://img.shields.io/badge/Framer_Motion-black?style=for-the-badge&logo=framer&logoColor=blue)
-
-**tools & environment**
-
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Fedora](https://img.shields.io/badge/Fedora-51A2DA?style=for-the-badge&logo=fedora&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
-![IntelliJ](https://img.shields.io/badge/IntelliJ_IDEA-000000?style=for-the-badge&logo=intellij-idea&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
-
-**exploring**
-
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+<img src="https://skillicons.dev/icons?i=java,spring,postgres,nodejs,react,docker,git,idea,vscode,python,fedora&perline=6&theme=dark" />
 
 </div>
 
----
+<br>
 
 ## projects
 
-Things I actually built. Some are polished, some are learning exercises — but they're real.
+Each of these started because I wanted to actually understand one specific thing, not because I needed a portfolio filler.
 
----
+<br>
 
-### 🛢️ RigSight — Backend Monitoring System
-> Simulated oil & gas monitoring platform with real-time telemetry, alerting, and system state management
+### [RigSight](https://github.com/NikhCodes/rigsight)
+**simulated industrial monitoring platform**
 
-Built to model how backend systems behave under continuous data flow — not just CRUD, but state, thresholds, and automated decision-making.
+I wanted to know what a backend looks like when it's not just answering CRUD requests but reacting to continuous data — thresholds, state transitions, repeated alerts that need deduplicating instead of spamming. RigSight simulates a telemetry pipeline with scheduled jobs feeding into threshold evaluation and equipment state machines:
 
-- Simulated sensor pipeline generating readings on a schedule (Spring scheduler)
-- Real-time evaluation engine with configurable thresholds per equipment type
-- Alert system with deduplication (prevents flooding under sustained breaches)
-- Equipment state transitions (ACTIVE → WARNING → CRITICAL → recovery)
-- JWT-secured REST API with role-based access control (ADMIN / OPERATOR / ENGINEER)
-- Flyway migrations + Dockerized PostgreSQL
+```
+ACTIVE → WARNING → CRITICAL → RECOVERY
+```
 
-What matters here isn’t just features — it’s consistency under pressure: repeated violations, continuous data, and keeping system state correct.
+JWT-secured, role-based access, Flyway-managed schema, Dockerized Postgres.
 
-**[repo ↗](https://github.com/Nikhcodes/rigsight)**
+`Java 21` `Spring Boot` `Spring Security` `JWT` `Hibernate` `PostgreSQL` `Flyway` `Docker`
 
-`Java 21` `Spring Boot` `Spring Security` `JWT` `JPA / Hibernate` `PostgreSQL` `Flyway` `Docker`
+<br>
 
----
+### AGAS
+**Academic Group Accountability System**
 
-### 🏗️ AGAS — Academic Group Accountability System
-> Role-based web app for managing academic group work, with a full audit trail
+Built for a university module, but I used it to go deeper on backend security than the assignment asked for: bcrypt hashing, a three-role authorization model, and an append-only audit log using JSONB metadata so nothing gets silently overwritten. UUID primary keys and soft deletes throughout — small decisions, but the kind that matter once real data is on the line.
 
-Built with a team as part of my software engineering programme. I handled backend and security.
+`Node.js` `Express` `PostgreSQL` `JWT` `bcrypt` `Helmet` `Joi`
 
-- Module-based Node.js + Express API with PostgreSQL
-- JWT auth, bcrypt (12 rounds), role-based access control across three roles
-- Append-only audit log with JSONB metadata — every action is traceable and survives entity deletion
-- OWASP principles applied: rate limiting, Helmet.js, Joi validation, enumeration-safe errors
-- UUID primary keys, soft deletes, database-level integrity enforcement
+<br>
 
-Security wasn’t added later — it was designed from the schema up.
+### [NikhOS](https://github.com/NikhCodes/NikhOS)
+**student workspace, built as a PWA**
 
-`Node.js` `Express` `PostgreSQL` `JWT` `bcrypt` `Joi` `Helmet`
+A grade and assignment tracker I actually use, built to feel native rather than like a website — installable, works offline, no loading spinners for basic navigation.
 
----
+live → https://nikh-os-red.vercel.app
 
-### ✦ NikhOS — Student Dashboard
-> A minimal student workspace that behaves like a native app
+`React` `Vite` `Tailwind CSS` `Framer Motion`
 
-Personal project. Built for speed and simplicity — not another bloated productivity tool.
+<br>
 
-- Grades, assignments, calendar, focus mode — all local (no accounts, no sync)
-- Installable PWA with offline support
-- Smooth UI interactions with Framer Motion
+### [Pose Cam](https://github.com/NikhCodes/face-tracker)
+**real-time hand gesture detection**
 
-**[live demo ↗](https://nikh-os-red.vercel.app)** · **[repo ↗](https://github.com/Nikhcodes/NikhOS)**
+No trained models — gesture classification purely from landmark geometry via MediaPipe. Wanted to understand computer vision as math and geometry before reaching for anything pretrained.
 
-`React 18` `Vite 6` `Tailwind v4` `Framer Motion` `localStorage`
+`Python` `MediaPipe` `OpenCV` `NumPy`
 
----
+<br>
 
-### 🖐️ Pose Cam — Real-Time Hand Gesture Detector
-> Python tool that detects hand poses via webcam and overlays visuals in real time
-
-Built to explore computer vision beyond tutorials — using geometry instead of trained models.
-
-- 9 gesture classifications using finger landmark geometry (no ML training)
-- Real-time image processing with brightness/contrast tuning and visual effects
-- Fully local execution — no servers, no accounts
-
-**[repo ↗](https://github.com/Nikhcodes/face-tracker)**
-
-`Python 3.12` `MediaPipe Tasks API` `OpenCV` `NumPy`
-
-## github stats
+## github
 
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats-sigma-five.vercel.app/api?username=NikhCodes&show_icons=true&theme=tokyonight&border_radius=10&bg_color=0D1117&hide_border=true&include_all_commits=true&count_private=true"/>
-<img height="180em" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=NikhCodes&layout=compact&theme=tokyonight&border_radius=10&bg_color=0D1117&hide_border=true"/>
+<img height="170em" src="https://github-readme-stats.vercel.app/api?username=NikhCodes&show_icons=true&theme=transparent&title_color=DC2626&text_color=ffffff&icon_color=DC2626&border_color=2D2D2D&hide_border=false&include_all_commits=true"/>
+<img height="170em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=NikhCodes&layout=compact&theme=transparent&title_color=DC2626&text_color=ffffff&border_color=2D2D2D"/>
 
-<br/>
+<br><br>
 
-<img src="https://github-readme-streak-stats.herokuapp.com?user=NikhCodes&theme=tokyonight&border_radius=10&hide_border=true&background=0D1117" />
+<img src="https://streak-stats.demolab.com?user=NikhCodes&theme=dark&ring=DC2626&fire=DC2626&currStreakLabel=ffffff&border=2D2D2D"/>
 
 </div>
 
----
+<br>
 
-## contribution snake
+## contributions
 
 <div align="center">
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://github.com/NikhCodes/NikhCodes/blob/output/github-contribution-grid-snake-dark.svg">
-  <img alt="github contribution snake" src="https://github.com/NikhCodes/NikhCodes/blob/output/github-contribution-grid-snake.svg">
+  <img alt="github contribution graph" src="https://github.com/NikhCodes/NikhCodes/blob/output/github-contribution-grid-snake.svg">
 </picture>
+
 </div>
 
----
-
-## get in touch
-
-| | |
-|--|--|
-| 📧 Email | [nikhiel.lingard.dev@gmail.com](mailto:nikhiel.lingard.dev@gmail.com) |
-| 💼 LinkedIn | [linkedin.com](https://www.linkedin.com/in/nikhiel-lingard/) |
-| 🐙 GitHub | [@NikhCodes](https://github.com/NikhCodes) |
-
----
+<br><br>
 
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,24&height=120&section=footer&animation=twinkling"/>
+<sub>trying to understand systems before optimizing them</sub>
 
-*Building toward hireable — one properly understood system at a time.*
+<br><br>
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=120&section=footer&color=0:0D0D0D,50:991B1B,100:DC2626"/>
 
 </div>
