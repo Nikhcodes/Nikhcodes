@@ -8,23 +8,35 @@
 <a href="mailto:nikhiel.lingard.dev@gmail.com"><img src="https://img.shields.io/badge/email-B91C1C?style=for-the-badge&logo=gmail&logoColor=white"/></a>
 <a href="https://www.linkedin.com/in/nikhiel-lingard/"><img src="https://img.shields.io/badge/linkedin-1A1A1A?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
 <a href="https://github.com/NikhCodes"><img src="https://img.shields.io/badge/github-1A1A1A?style=for-the-badge&logo=github&logoColor=white"/></a>
-
-<br><br>
-
 <img src="https://komarev.com/ghpvc/?username=NikhCodes&style=for-the-badge&color=991B1B&label=profile+views"/>
+
 
 </div>
 
-<br>
-
 ## about
 
-I run IT operations at a fintech bank in Suriname by day, and study software engineering at UNASAT the rest of the time. The two feed each other more than I expected — watching how a production banking environment actually breaks, gets monitored, and gets patched has shaped what I want to build more than any course has.
-
-I started in full-stack because it let me ship things fast. I'm moving toward backend — Java, Spring Boot, PostgreSQL — because I got more interested in what happens when the request lands than in what the button looks like. Authentication flows, state machines, failure modes, the boring infrastructure between an app and the outside world: that's the part I keep coming back to.
-
-I don't collect frameworks. I'd rather spend three months actually understanding Spring Security's filter chain than skim ten tutorials on ten different stacks.
-
+> I work as an **IT Operator at a fintech bank** in Suriname by day and study
+> software engineering at **UNASAT** the rest of the time.
+>
+> The two feed each other more than I expected. Watching how a production
+> banking environment actually breaks, gets monitored, and gets patched
+> has shaped what I want to build more than any course has.
+>
+> I started in full-stack because it let me ship things quickly.
+>
+> I'm moving toward **backend engineering**, with most of my time going
+> into **Java, Spring Boot, and PostgreSQL**. Somewhere along the way,
+> I became more interested in what happens when the request lands than
+> in what the button looks like.
+>
+> **Authentication flows, state machines, failure modes, and the
+> infrastructure between an application and the outside world** are the
+> parts I keep coming back to.
+>
+> I don't collect frameworks.
+>
+> I'd rather spend three months understanding **Spring Security's filter
+> chain** than skim ten tutorials on ten different stacks.
 <br>
 
 ## currently
@@ -51,29 +63,33 @@ next up:   Docker, Nginx, deployment infra
 
 ## projects
 
-Each of these started because I wanted to actually understand one specific thing, not because I needed a portfolio filler.
+Each of these started because I wanted to understand one specific thing properly, not because I needed portfolio filler.
 
 <br>
 
 ### [RigSight](https://github.com/NikhCodes/rigsight)
 **simulated industrial monitoring platform**
 
-I wanted to know what a backend looks like when it's not just answering CRUD requests but reacting to continuous data — thresholds, state transitions, repeated alerts that need deduplicating instead of spamming. RigSight simulates a telemetry pipeline with scheduled jobs feeding into threshold evaluation and equipment state machines:
+I wanted to know what a backend looks like when it isn't just answering CRUD requests, but reacting to continuous data: thresholds, state transitions, and repeated alerts that need deduplicating instead of spamming.
+
+RigSight simulates a telemetry pipeline with scheduled jobs feeding into threshold evaluation and equipment state machines:
 
 ```
 ACTIVE → WARNING → CRITICAL → RECOVERY
 ```
 
-JWT-secured, role-based access, Flyway-managed schema, Dockerized Postgres.
+JWT-secured, role-based access, Flyway-managed schema, and Dockerized PostgreSQL.
 
 `Java 21` `Spring Boot` `Spring Security` `JWT` `Hibernate` `PostgreSQL` `Flyway` `Docker`
 
 <br>
 
 ### AGAS
-**Academic Group Accountability System**
+**academic group accountability system**
 
-Built for a university module, but I used it to go deeper on backend security than the assignment asked for: bcrypt hashing, a three-role authorization model, and an append-only audit log using JSONB metadata so nothing gets silently overwritten. UUID primary keys and soft deletes throughout — small decisions, but the kind that matter once real data is on the line.
+Built for a university module, but I used it to go deeper on backend security than the assignment required: bcrypt hashing, a three-role authorization model, and an append-only audit log using JSONB metadata so nothing gets silently overwritten.
+
+UUID primary keys and soft deletes throughout. Small decisions, but the kind that matter once real data is involved.
 
 `Node.js` `Express` `PostgreSQL` `JWT` `bcrypt` `Helmet` `Joi`
 
@@ -82,7 +98,7 @@ Built for a university module, but I used it to go deeper on backend security th
 ### [NikhOS](https://github.com/NikhCodes/NikhOS)
 **student workspace, built as a PWA**
 
-A grade and assignment tracker I actually use, built to feel native rather than like a website — installable, works offline, no loading spinners for basic navigation.
+A grade and assignment tracker that I actually use, built to feel native rather than like a website. It's installable, works offline, and doesn't make you wait through loading screens for basic navigation.
 
 live → https://nikh-os-red.vercel.app
 
@@ -93,10 +109,11 @@ live → https://nikh-os-red.vercel.app
 ### [Pose Cam](https://github.com/NikhCodes/face-tracker)
 **real-time hand gesture detection**
 
-No trained models — gesture classification purely from landmark geometry via MediaPipe. Wanted to understand computer vision as math and geometry before reaching for anything pretrained.
+No trained models here. Gesture classification is done entirely through landmark geometry with MediaPipe.
+
+I wanted to understand computer vision as math and geometry before reaching for anything pretrained.
 
 `Python` `MediaPipe` `OpenCV` `NumPy`
-
 <br>
 
 ## github
