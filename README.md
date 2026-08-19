@@ -189,23 +189,6 @@ I wanted to understand computer vision as math and geometry before reaching for 
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=2&color=0:000000,50:DC2626,100:000000"/>
 
-## github
-
-<div align="center">
-
-<img height="165em" src="https://github-readme-stats.vercel.app/api?username=NikhCodes&show_icons=true&theme=transparent&title_color=DC2626&text_color=ffffff&icon_color=DC2626&border_color=DC2626&hide_border=false&include_all_commits=true"/>
-<img height="165em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=NikhCodes&layout=compact&theme=transparent&title_color=DC2626&text_color=ffffff&border_color=DC2626"/>
-
-<br>
-
-<img src="https://streak-stats.demolab.com?user=NikhCodes&theme=dark&ring=DC2626&fire=DC2626&currStreakLabel=ffffff&border=DC2626&background=00000000"/>
-
-<br><br>
-
-<img src="https://github-profile-trophy.vercel.app/?username=NikhCodes&theme=dracula&no-frame=true&no-bg=true&column=4&margin-w=8&margin-h=8&title=Commits,Stars,PullRequest,Repositories"/>
-
-<br><br>
-
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://github.com/NikhCodes/NikhCodes/blob/output/github-contribution-grid-snake-dark.svg">
   <img alt="github contribution graph" src="https://github.com/NikhCodes/NikhCodes/blob/output/github-contribution-grid-snake.svg">
