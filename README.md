@@ -1,17 +1,22 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=190&color=0:0D0D0D,50:991B1B,100:DC2626&text=Nikhiel%20Lingard&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Backend%20Engineering%20%E2%80%A2%20Fintech%20Operations%20%E2%80%A2%20Suriname&descAlignY=60"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:000000,50:7F1D1D,100:DC2626&text=Nikhiel%20Lingard&fontSize=54&fontColor=ffffff&animation=twinkling&fontAlignY=32&desc=Backend%20Engineering%20%E2%80%A2%20Production%20Systems%20%E2%80%A2%20Suriname&descAlignY=52&descSize=19"/>
 
 <br>
 
-<a href="https://nikhcodes.github.io"><img src="https://img.shields.io/badge/portfolio-991B1B?style=for-the-badge&logo=firefox-browser&logoColor=white"/></a>
-<a href="mailto:nikhiel.lingard.dev@gmail.com"><img src="https://img.shields.io/badge/email-B91C1C?style=for-the-badge&logo=gmail&logoColor=white"/></a>
-<a href="https://www.linkedin.com/in/nikhiel-lingard/"><img src="https://img.shields.io/badge/linkedin-1A1A1A?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-<a href="https://github.com/NikhCodes"><img src="https://img.shields.io/badge/github-1A1A1A?style=for-the-badge&logo=github&logoColor=white"/></a>
-<img src="https://komarev.com/ghpvc/?username=NikhCodes&style=for-the-badge&color=991B1B&label=profile+views"/>
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=20&duration=3000&pause=800&color=DC2626&center=true&vCenter=true&width=650&lines=IT+Operator+%40+a+fintech+bank;BSc+IT+%2F+Software+Engineering+%40+UNASAT;Moving+toward+backend+engineering;Java+%C2%B7+Spring+Boot+%C2%B7+PostgreSQL"/>
 
+<br><br>
+
+<a href="https://nikhcodes.github.io"><img src="https://img.shields.io/badge/PORTFOLIO-000000?style=for-the-badge&logo=firefox-browser&logoColor=DC2626&labelColor=000000"/></a>
+<a href="mailto:nikhiel.lingard.dev@gmail.com"><img src="https://img.shields.io/badge/EMAIL-000000?style=for-the-badge&logo=gmail&logoColor=DC2626&labelColor=000000"/></a>
+<a href="https://www.linkedin.com/in/nikhiel-lingard/"><img src="https://img.shields.io/badge/LINKEDIN-000000?style=for-the-badge&logo=linkedin&logoColor=DC2626&labelColor=000000"/></a>
+<a href="https://github.com/NikhCodes"><img src="https://img.shields.io/badge/GITHUB-000000?style=for-the-badge&logo=github&logoColor=DC2626&labelColor=000000"/></a>
+<img src="https://komarev.com/ghpvc/?username=NikhCodes&style=for-the-badge&color=000000&label=PROFILE+VIEWS&labelColor=000000"/>
 
 </div>
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=2&color=0:000000,50:DC2626,100:000000"/>
 
 ## about
 
@@ -22,12 +27,11 @@
 > banking environment actually breaks, gets monitored, and gets patched
 > has shaped what I want to build more than any course has.
 >
-> I started in full-stack because it let me ship things quickly.
->
-> I'm moving toward **backend engineering**, with most of my time going
-> into **Java, Spring Boot, and PostgreSQL**. Somewhere along the way,
-> I became more interested in what happens when the request lands than
-> in what the button looks like.
+> I started in full-stack because it let me ship things quickly. I'm moving
+> toward **backend engineering**, with most of my time going into
+> **Java, Spring Boot, and PostgreSQL**. Somewhere along the way I became
+> more interested in what happens when the request lands than in what the
+> button looks like.
 >
 > **Authentication flows, state machines, failure modes, and the
 > infrastructure between an application and the outside world** are the
@@ -37,9 +41,53 @@
 >
 > I'd rather spend three months understanding **Spring Security's filter
 > chain** than skim ten tutorials on ten different stacks.
+
 <br>
 
+<table width="100%">
+<tr>
+<td width="33%" valign="top" align="center">
+
+<img src="https://img.shields.io/badge/PRODUCTION-000000?style=flat-square&labelColor=000000&color=DC2626"/>
+<br><br>
+IT Operator, fintech banking
+<br>
+<sub>incident response · monitoring · systems that can't just go down</sub>
+
+</td>
+<td width="33%" valign="top" align="center">
+
+<img src="https://img.shields.io/badge/EDUCATION-000000?style=flat-square&labelColor=000000&color=DC2626"/>
+<br><br>
+BSc IT / Software Engineering
+<br>
+<sub>UNASAT</sub>
+
+</td>
+<td width="33%" valign="top" align="center">
+
+<img src="https://img.shields.io/badge/DIRECTION-000000?style=flat-square&labelColor=000000&color=DC2626"/>
+<br><br>
+Backend engineering
+<br>
+<sub>Java · Spring Boot · PostgreSQL</sub>
+
+</td>
+</tr>
+</table>
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=2&color=0:000000,50:DC2626,100:000000"/>
+
 ## currently
+
+<div align="center">
+<img src="./assets/terminal.svg" alt="terminal status panel"/>
+</div>
+
+<sub>● production &nbsp;&nbsp; ● learning &nbsp;&nbsp; → next</sub>
+
+<details>
+<summary><sub>plain text version</sub></summary>
 
 ```yaml
 role:      IT Operator, fintech banking — production systems, incident response
@@ -49,17 +97,27 @@ reading:   OWASP Top 10, authentication design, caching strategies
 next up:   Docker, Nginx, deployment infra
 ```
 
-<br>
+</details>
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=2&color=0:000000,50:DC2626,100:000000"/>
 
 ## stack
 
-<div align="center">
+<table width="100%">
+<tr>
+<td valign="top" width="20%"><b>backend</b><br><br><img src="https://skillicons.dev/icons?i=java,spring,nodejs,python&theme=dark"/></td>
+<td valign="top" width="20%"><b>data</b><br><br><img src="https://skillicons.dev/icons?i=postgres,hibernate,prisma&theme=dark"/></td>
+<td valign="top" width="20%"><b>frontend</b><br><br><img src="https://skillicons.dev/icons?i=react,ts,js&theme=dark"/></td>
+<td valign="top" width="20%"><b>infra</b><br><br><img src="https://skillicons.dev/icons?i=docker,git,fedora&theme=dark"/></td>
+<td valign="top" width="20%"><b>security</b><br><br>
+<img src="https://img.shields.io/badge/Spring_Security-000000?style=flat-square&labelColor=000000&color=DC2626"/><br>
+<img src="https://img.shields.io/badge/JWT-000000?style=flat-square&labelColor=000000&color=DC2626"/><br>
+<img src="https://img.shields.io/badge/bcrypt-000000?style=flat-square&labelColor=000000&color=DC2626"/>
+</td>
+</tr>
+</table>
 
-<img src="https://skillicons.dev/icons?i=java,spring,postgres,nodejs,react,docker,git,idea,vscode,python,fedora&perline=6&theme=dark" />
-
-</div>
-
-<br>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=2&color=0:000000,50:DC2626,100:000000"/>
 
 ## projects
 
@@ -67,20 +125,34 @@ Each of these started because I wanted to understand one specific thing properly
 
 <br>
 
+<table width="100%">
+<tr><td>
+
+<img src="https://img.shields.io/badge/FLAGSHIP-000000?style=for-the-badge&labelColor=000000&color=DC2626"/>
+
 ### [RigSight](https://github.com/NikhCodes/rigsight)
 **simulated industrial monitoring platform**
 
 I wanted to know what a backend looks like when it isn't just answering CRUD requests, but reacting to continuous data: thresholds, state transitions, and repeated alerts that need deduplicating instead of spamming.
 
-RigSight simulates a telemetry pipeline with scheduled jobs feeding into threshold evaluation and equipment state machines:
+<div align="center">
 
-```
-ACTIVE → WARNING → CRITICAL → RECOVERY
-```
+<img src="./assets/rigsight-flow.svg" alt="RigSight data pipeline animation" width="100%"/>
 
-JWT-secured, role-based access, Flyway-managed schema, and Dockerized PostgreSQL.
+<br>
+
+<img src="./assets/state-cycle.svg" alt="RigSight equipment state machine animation" width="85%"/>
+
+</div>
+
+<br>
+
+JWT-secured, role-based access, Flyway-managed schema, Dockerized PostgreSQL.
 
 `Java 21` `Spring Boot` `Spring Security` `JWT` `Hibernate` `PostgreSQL` `Flyway` `Docker`
+
+</td></tr>
+</table>
 
 <br>
 
@@ -114,26 +186,25 @@ No trained models here. Gesture classification is done entirely through landmark
 I wanted to understand computer vision as math and geometry before reaching for anything pretrained.
 
 `Python` `MediaPipe` `OpenCV` `NumPy`
-<br>
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=2&color=0:000000,50:DC2626,100:000000"/>
 
 ## github
 
 <div align="center">
 
-<img height="170em" src="https://github-readme-stats.vercel.app/api?username=NikhCodes&show_icons=true&theme=transparent&title_color=DC2626&text_color=ffffff&icon_color=DC2626&border_color=2D2D2D&hide_border=false&include_all_commits=true"/>
-<img height="170em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=NikhCodes&layout=compact&theme=transparent&title_color=DC2626&text_color=ffffff&border_color=2D2D2D"/>
-
-<br><br>
-
-<img src="https://streak-stats.demolab.com?user=NikhCodes&theme=dark&ring=DC2626&fire=DC2626&currStreakLabel=ffffff&border=2D2D2D"/>
-
-</div>
+<img height="165em" src="https://github-readme-stats.vercel.app/api?username=NikhCodes&show_icons=true&theme=transparent&title_color=DC2626&text_color=ffffff&icon_color=DC2626&border_color=DC2626&hide_border=false&include_all_commits=true"/>
+<img height="165em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=NikhCodes&layout=compact&theme=transparent&title_color=DC2626&text_color=ffffff&border_color=DC2626"/>
 
 <br>
 
-## contributions
+<img src="https://streak-stats.demolab.com?user=NikhCodes&theme=dark&ring=DC2626&fire=DC2626&currStreakLabel=ffffff&border=DC2626&background=00000000"/>
 
-<div align="center">
+<br><br>
+
+<img src="https://github-profile-trophy.vercel.app/?username=NikhCodes&theme=dracula&no-frame=true&no-bg=true&column=4&margin-w=8&margin-h=8&title=Commits,Stars,PullRequest,Repositories"/>
+
+<br><br>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://github.com/NikhCodes/NikhCodes/blob/output/github-contribution-grid-snake-dark.svg">
@@ -142,7 +213,7 @@ I wanted to understand computer vision as math and geometry before reaching for 
 
 </div>
 
-<br><br>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&height=2&color=0:000000,50:DC2626,100:000000"/>
 
 <div align="center">
 
@@ -150,6 +221,6 @@ I wanted to understand computer vision as math and geometry before reaching for 
 
 <br><br>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=120&section=footer&color=0:0D0D0D,50:991B1B,100:DC2626"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=130&section=footer&color=0:000000,50:7F1D1D,100:DC2626"/>
 
 </div>
