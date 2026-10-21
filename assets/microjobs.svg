@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 320" width="600" height="320">
+  <defs>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#150709"/><stop offset="1" stop-color="#080304"/></linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#4ade80" stop-opacity="0.7"/><stop offset="0.6" stop-color="#4ade80" stop-opacity="0.06"/><stop offset="1" stop-color="#86efac" stop-opacity="0.4"/></linearGradient>
+    <radialGradient id="glow"><stop offset="0" stop-color="#4ade80" stop-opacity="0.32"/><stop offset="1" stop-color="#4ade80" stop-opacity="0"/></radialGradient>
+    <clipPath id="c"><rect x="6" y="6" width="588" height="308" rx="20"/></clipPath>
+  </defs>
+  <style>
+.sans{font-family:-apple-system,'Segoe UI',Helvetica,Arial,sans-serif}
+.ser{font-family:Georgia,'Times New Roman',serif}
+.mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+.orb{animation:orb 12s ease-in-out infinite alternate}
+@keyframes orb{from{transform:translate(0,0)}to{transform:translate(-90px,40px)}}
+.f{animation:fl 6s ease-in-out infinite}
+.f2{animation-delay:-2s}.f3{animation-delay:-4s}
+@keyframes fl{0%,100%{translate:0 0}50%{translate:0 -8px}}
+.star{animation:spin 10s linear infinite;transform-box:fill-box;transform-origin:center}
+@keyframes spin{0%{transform:rotate(0) scale(1)}50%{transform:rotate(180deg) scale(1.15)}100%{transform:rotate(360deg) scale(1)}}</style>
+  <rect x="6" y="6" width="588" height="308" rx="20" fill="url(#card)"/>
+  <g clip-path="url(#c)"><circle class="orb" cx="500" cy="60" r="200" fill="url(#glow)"/>
+
+<g class="sans">
+  <g class="f f1" transform="translate(70,48)"><rect width="200" height="70" rx="14" fill="#1d0a0d" stroke="#4ade80" stroke-opacity="0.45"/>
+    <text x="16" y="28" font-size="14" fill="#fff">Logo design</text><text x="16" y="50" class="mono" font-size="11" fill="#86efac">SRD 450 · Paramaribo</text></g>
+  <g class="f f2" transform="translate(300,36)"><rect width="230" height="70" rx="14" fill="#1d0a0d" stroke="#facc15" stroke-opacity="0.45"/>
+    <text x="16" y="28" font-size="14" fill="#fff">Fix my laptop</text><text x="16" y="50" class="mono" font-size="11" fill="#fde68a">SRD 300 · Wanica</text></g>
+  <g class="f f3" transform="translate(130,132)"><rect width="250" height="70" rx="14" fill="#1d0a0d" stroke="#ef4444" stroke-opacity="0.5"/>
+    <text x="16" y="28" font-size="14" fill="#fff">Translate a flyer (NL → EN)</text><text x="16" y="50" class="mono" font-size="11" fill="#fca5a5">SRD 200 · remote</text></g>
+</g>
+<g transform="translate(480,160)"><path class="star" d="M0 -26 L7.6 -8 L27 -8 L11.4 4 L17 23 L0 12 L-17 23 L-11.4 4 L-27 -8 L-7.6 -8 Z" fill="#facc15"/></g>
+<g transform="translate(60,-12)" opacity="0.7"><rect width="480" height="4" y="214" fill="#15803d"/><rect width="480" height="2" y="218" fill="#fff"/><rect width="480" height="6" y="220" fill="#b91c1c"/></g>
+  </g>
+  <rect x="6.5" y="6.5" width="587" height="307" rx="19.5" fill="none" stroke="url(#edge)"/>
+  <text x="34" y="236" class="mono" font-size="11" letter-spacing="3.5" fill="#86efac">CAPSTONE · NEXT.JS</text>
+  <text x="32" y="270" class="ser" font-style="italic" font-size="32" fill="#fff">MicroJobs.sr</text>
+  <text x="34" y="296" class="sans" font-size="14" fill="#f5d0d0" opacity="0.8">a freelance marketplace made for Suriname</text>
+</svg>

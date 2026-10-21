@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 440" width="1200" height="440">
+  <defs>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#160709"/><stop offset="1" stop-color="#080304"/></linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#dc2626" stop-opacity="0.7"/><stop offset="0.6" stop-color="#dc2626" stop-opacity="0.08"/><stop offset="1" stop-color="#fb923c" stop-opacity="0.4"/></linearGradient>
+    <linearGradient id="area" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#dc2626" stop-opacity="0.35"/><stop offset="1" stop-color="#dc2626" stop-opacity="0"/></linearGradient>
+    <radialGradient id="pk"><stop offset="0" stop-color="#fff"/><stop offset="0.4" stop-color="#ff8a7a"/><stop offset="1" stop-color="#dc2626" stop-opacity="0"/></radialGradient>
+    <radialGradient id="glow"><stop offset="0" stop-color="#dc2626" stop-opacity="0.3"/><stop offset="1" stop-color="#dc2626" stop-opacity="0"/></radialGradient>
+    <clipPath id="chart"><rect x="60" y="210" width="600" height="170"/></clipPath>
+    <clipPath id="c"><rect x="8" y="8" width="1184" height="424" rx="22"/></clipPath>
+  </defs>
+  <style>
+    .sans{font-family:-apple-system,'Segoe UI',Helvetica,Arial,sans-serif}
+    .ser{font-family:Georgia,'Times New Roman',serif}
+    .mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+    .p{animation:hop 4.5s cubic-bezier(.45,0,.55,1) infinite;opacity:0}
+    .p2{animation-delay:1.5s}.p3{animation-delay:3s}
+    @keyframes hop{0%{transform:translateX(0);opacity:0}6%{opacity:1}94%{opacity:1}100%{transform:translateX(920px);opacity:0}}
+    .node{animation:nb 4.5s ease-in-out infinite}
+    .n2{animation-delay:.9s}.n3{animation-delay:1.8s}.n4{animation-delay:2.7s}.n5{animation-delay:3.6s}
+    @keyframes nb{0%,100%{stroke-opacity:.25}15%{stroke-opacity:1}}
+    .scan{animation:scan 6s linear infinite}
+    @keyframes scan{from{transform:translateX(0)}to{transform:translateX(600px)}}
+    .line{stroke-dasharray:1400;stroke-dashoffset:1400;animation:draw 3s .3s ease-out forwards}
+    @keyframes draw{to{stroke-dashoffset:0}}
+    .spike{animation:spk 6s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+    @keyframes spk{0%,40%,100%{opacity:.3;transform:scale(1)}48%{opacity:1;transform:scale(1.8)}60%{opacity:.6;transform:scale(1)}}
+    .st{opacity:.22;animation:st 8s infinite}
+    .st2{animation-delay:2s}.st3{animation-delay:4s}.st4{animation-delay:6s}
+    @keyframes st{0%,24%{opacity:1}25%,100%{opacity:.22}}
+    .dedup{animation:dd 8s infinite}
+    @keyframes dd{0%,45%{opacity:0}50%,70%{opacity:1}75%,100%{opacity:0}}
+    .orb{animation:orb 14s ease-in-out infinite alternate}
+    @keyframes orb{from{transform:translate(0,0)}to{transform:translate(140px,50px)}}
+  </style>
+
+  <rect x="8" y="8" width="1184" height="424" rx="22" fill="url(#card)"/>
+  <g clip-path="url(#c)"><circle class="orb" cx="200" cy="60" r="260" fill="url(#glow)"/></g>
+  <rect x="8.5" y="8.5" width="1183" height="423" rx="21.5" fill="none" stroke="url(#edge)"/>
+
+  <text x="56" y="58" class="mono" font-size="12" letter-spacing="4" fill="#fca5a5">FLAGSHIP · LIVE PIPELINE</text>
+
+  <!-- pipeline -->
+  <g class="sans" font-size="15" text-anchor="middle">
+    <line x1="140" y1="120" x2="1060" y2="120" stroke="#dc2626" stroke-opacity="0.25" stroke-dasharray="4 6"/>
+    <circle class="p" cx="140" cy="120" r="9" fill="url(#pk)"/>
+    <circle class="p p2" cx="140" cy="120" r="9" fill="url(#pk)"/>
+    <circle class="p p3" cx="140" cy="120" r="9" fill="url(#pk)"/>
+    <g><rect class="node" x="60" y="98" width="160" height="44" rx="22" fill="#1d0a0d" stroke="#ef4444"/><text x="140" y="125" fill="#fff">sensors</text></g>
+    <g><rect class="node n2" x="290" y="98" width="160" height="44" rx="22" fill="#1d0a0d" stroke="#ef4444"/><text x="370" y="125" fill="#fff">ingest API</text></g>
+    <g><rect class="node n3" x="520" y="98" width="160" height="44" rx="22" fill="#1d0a0d" stroke="#ef4444"/><text x="600" y="125" fill="#fff">threshold rules</text></g>
+    <g><rect class="node n4" x="750" y="98" width="160" height="44" rx="22" fill="#1d0a0d" stroke="#ef4444"/><text x="830" y="125" fill="#fff">state machine</text></g>
+    <g><rect class="node n5" x="980" y="98" width="160" height="44" rx="22" fill="#1d0a0d" stroke="#ef4444"/><text x="1060" y="125" fill="#fff">alerts</text></g>
+  </g>
+
+  <!-- chart -->
+  <text x="60" y="196" class="mono" font-size="12" letter-spacing="3" fill="#f5b4b4">PUMP-03 · PRESSURE</text>
+  <g clip-path="url(#chart)">
+    <line x1="60" y1="262" x2="660" y2="262" stroke="#fb923c" stroke-dasharray="6 6" stroke-opacity="0.7"/>
+    <path d="M60 340 L100 330 L140 336 L180 318 L220 324 L260 300 L300 308 L340 250 L370 240 L400 280 L440 300 L480 312 L520 296 L560 304 L600 288 L660 296 L660 380 L60 380 Z" fill="url(#area)"/>
+    <polyline class="line" points="60,340 100,330 140,336 180,318 220,324 260,300 300,308 340,250 370,240 400,280 440,300 480,312 520,296 560,304 600,288 660,296" fill="none" stroke="#ff6b5b" stroke-width="2.5" stroke-linejoin="round"/>
+    <rect class="scan" x="58" y="210" width="2" height="170" fill="#fff" opacity="0.25"/>
+  </g>
+  <circle class="spike" cx="340" cy="250" r="5" fill="#ef4444"/>
+  <circle class="spike" cx="370" cy="240" r="5" fill="#ef4444"/>
+  <text x="666" y="266" class="mono" font-size="11" fill="#fb923c">limit</text>
+
+  <!-- states -->
+  <text x="760" y="196" class="mono" font-size="12" letter-spacing="3" fill="#f5b4b4">EQUIPMENT STATE</text>
+  <g class="sans" font-size="15">
+    <g class="st"><rect x="760" y="214" width="180" height="36" rx="18" fill="#0f2a1a" stroke="#4ade80"/><circle cx="782" cy="232" r="5" fill="#4ade80"/><text x="798" y="237" fill="#dcfce7">NORMAL</text></g>
+    <g class="st st2"><rect x="760" y="258" width="180" height="36" rx="18" fill="#2a1a08" stroke="#fb923c"/><circle cx="782" cy="276" r="5" fill="#fb923c"/><text x="798" y="281" fill="#ffedd5">WARNING</text></g>
+    <g class="st st3"><rect x="760" y="302" width="180" height="36" rx="18" fill="#2a0a0d" stroke="#ef4444"/><circle cx="782" cy="320" r="5" fill="#ef4444"/><text x="798" y="325" fill="#fee2e2">CRITICAL</text></g>
+    <g class="st st4"><rect x="760" y="346" width="180" height="36" rx="18" fill="#1a1028" stroke="#c084fc"/><circle cx="782" cy="364" r="5" fill="#c084fc"/><text x="798" y="369" fill="#f3e8ff">RECOVERING</text></g>
+  </g>
+  <g class="dedup sans">
+    <rect x="964" y="286" width="190" height="64" rx="14" fill="#1d0a0d" stroke="#ef4444" stroke-opacity="0.6"/>
+    <text x="984" y="312" font-size="14" fill="#fff">1 alert raised</text>
+    <text x="984" y="334" font-size="12" fill="#fca5a5" class="mono">+14 duplicates merged</text>
+  </g>
+  <text x="56" y="414" class="sans" font-size="13" fill="#f5b4b4" opacity="0.7">illustrative animation · not live data</text>
+</svg>
