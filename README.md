@@ -7,9 +7,6 @@
 <a href="https://https://nikh-exe-git-main-nikhcodes-projects.vercel.app/#/"><img src="https://img.shields.io/badge/portfolio-0a0405?style=for-the-badge&logo=firefoxbrowser&logoColor=fca5a5"/></a>
 <a href="mailto:nikhiel.lingard.dev@gmail.com"><img src="https://img.shields.io/badge/email-0a0405?style=for-the-badge&logo=gmail&logoColor=fca5a5"/></a>
 <a href="https://www.linkedin.com/in/nikhiel-lingard/"><img src="https://img.shields.io/badge/linkedin-0a0405?style=for-the-badge&logo=linkedin&logoColor=fca5a5"/></a>
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=NikhCodes&style=flat-square&color=7f1d1d&label=PROFILE%20VIEWS" alt="Profile views" />
-</p>
 
 </div>
 
